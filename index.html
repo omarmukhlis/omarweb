@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="%PUBLIC_URL%/favicon,ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>omarmkhlis</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="assets/icon/partner.png" alt="logo" class="logo-img"/>
+                <h1 class="logo-title">omarmkhlis</h1>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#hobby">Hobby</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="btn-act" onclick="redirInstagram()">Follow me</button>
+        </header>
+        <div class="container">
+            <div class="intro">
+                <p class="title">Hai, I am omar mukhlis</p>
+                <p class="description">I am a developer</p>
+                <img src="assets/photos/omarphoto.jpg" alt="omar mukhlis photo 1" class="img-photo" />
+            </div>
+        </div>
+        <div class="parallax">
+            <div class="content">
+                <p class="title">I am programmer</p>
+                <p class="description">I do this just for a testing</p>
+                <div class="mt-10">
+                    <button class="btn-act" onclick="alert('any inquiries email: omarxml45@gmail.com')">Come work with me</button>
+                </div>
+            </div>
+            <div class="container">         
+                        <div class="cards" id="hobby">
+                        <div class="cards-item">
+                            <img src="assets/icon/24-hours.png" alt="icon 1" class="icon"/>
+                            <p class="card-title">24/7</p>
+                            <p class="card-description">I can help you to do your own website. Contact Me !</p>
+                        </div>
+                        <div class="cards-item">
+                            <img src="assets/icon/hot-deal.png" alt="icon 1" class="icon"/>
+                            <p class="card-title">Affordable</p>
+                            <p class="card-description">You can keep it with lowest price.</p>
+                        </div>
+                        <div class="cards-item">
+                            <img src="assets/icon/rating.png" alt="icon 1" class="icon"/>
+                            <p class="card-title">More than 100 Reviews</p>
+                            <p class="card-description">My Client love my design website for them.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h3>
+                <p class="title">&copy; Omar Mukhlis 2024</p>
+            </h3>
+        </footer>
+
+        <script>
+            function redirInstagram() {
+                window.location.href = "https://instagram.com/omarmkhlis"
+            }
+        </script>
+    </body>
+</html>
